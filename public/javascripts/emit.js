@@ -1,6 +1,4 @@
-var host='http://localhost:3000';
-var socket = io(host);
-
+var socket = io();
 
 $('#popupMenu_font a').click(function(e){
     $('#size').text($(e.target).text()).attr("danmaku-size",$(e.target).attr("danmaku-size"));
@@ -26,6 +24,6 @@ $('#btnSend').click(function(e){
     };
     var msg=JSON.stringify(danmaku);
     console.log(msg);
-    socket.emit('chat message',msg);
+    socket.emit('danmaku send',msg);
     $('#msg').val("");
 });

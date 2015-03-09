@@ -1,0 +1,7 @@
+{"sizes":[{"size":12,"title":"非常小"},{"size":16,"title":"较小"},{"size":18,"title":"小"},{"size":25,"title":"中"},{"size":36,"title":"大"},{"size":45,"title":"较大"},{"size":64,"title":"非常大"}],
+
+"modes":[{"mode":1,"title":"顶端滚动"},{"mode":2,"title":"底端滚动"},{"mode":5,"title":"顶端渐隐"},{"mode":4,"title":"底端渐隐"},{"mode":6,"title":"逆向滚动"}],
+
+"colors":[{"color":"000000","title":"黑色"},{"color":"C0C0C0","title":"灰色"},{"color":"ffffff","title":"白色"},{"color":"ff0000","title":"红色"},{"color":"00ff00","title":"绿色"},{"color":"0000ff","title":"蓝色"},{"color":"ffff00","title":"黄色"},{"color":"00ffff","title":"墨绿"},{"color":"ff00ff","title":"洋红"}],
+
+"inits":{"size":3,"mode":0,"color":4}}
